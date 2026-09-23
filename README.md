@@ -19,7 +19,11 @@ As citações normativas aparecem **somente dentro dos quadros** (linha "Base le
 
 ## Publicação
 
-Basta copiar a pasta inteira para qualquer servidor web ou hospedagem estática (GitHub Pages, Netlify, servidor do órgão etc.). Os links são relativos.
+**Endereço público (GitHub Pages):** https://sebastiaoissa.github.io/Fluxograma-Acar-/
+
+Para ativar (uma única vez): *Settings → Pages → Build and deployment → Source: "Deploy from a branch" → Branch: `claude/magical-ride-k86aox`, pasta `/ (root)` → Save*. A cada novo push o site é republicado automaticamente em 1–2 minutos.
+
+O site também funciona em qualquer outra hospedagem estática (Netlify, servidor do órgão etc.): basta copiar a pasta inteira. Os links são relativos.
 
 ## Inserir os fluxogramas em outro site
 
