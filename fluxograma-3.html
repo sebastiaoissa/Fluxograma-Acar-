@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fluxo da Delegacia de Polícia · Acará/PA</title>
+  <meta name="description" content="Fluxograma 3 — procedimento operacional da Delegacia de Polícia da Comarca de Acará/PA.">
+  <link rel="stylesheet" href="assets/css/fluxograma.css">
+  <script src="assets/js/embed.js"></script>
+</head>
+<body>
+  <nav class="site-nav" aria-label="Fluxogramas">
+    <a class="site-nav__label" href="index.html">Fluxogramas</a>
+    <a class="site-nav__link" href="fluxograma-1.html">1 · Fluxo Geral</a>
+    <a class="site-nav__link" href="fluxograma-2.html">2 · Escuta Especializada</a>
+    <a class="site-nav__link" href="fluxograma-3.html" aria-current="page">3 · Delegacia</a>
+  </nav>
+
+  <main class="page">
+    <article class="sheet">
+      <header class="sheet-header">
+        <div class="sheet-header__kicker">Fluxograma 3 · Porta de Entrada Policial</div>
+        <h1>Fluxo da Delegacia de Polícia</h1>
+        <p class="sheet-header__lead">Procedimento operacional da Delegacia de Polícia da Comarca de Acará/PA.</p>
+      </header>
+
+      <div class="sheet-body flow">
+
+        <!-- PORTA DE ENTRADA -->
+        <section aria-label="Porta de entrada">
+          <div class="section-label"><span>Porta de Entrada</span></div>
+          <div class="entry entry--pill">
+            <strong>Criança/adolescente chega à Delegacia</strong>
+            <span>Demanda espontânea · encaminhamento do CT · hospital · MP · denúncia anônima</span>
+          </div>
+        </section>
+
+        <div class="arrow" aria-hidden="true"></div>
+
+        <!-- PASSO 1 -->
+        <section class="step">
+          <div class="step__rail"><span class="step__num">1</span></div>
+          <div class="step__card">
+            <div class="step__kicker">Passo 1</div>
+            <h2>Registro da ocorrência</h2>
+            <ul class="bullets">
+              <li>Priorizar informações com o acompanhante, sem a presença da vítima, sempre que possível.</li>
+              <li>Criança desacompanhada tem direito ao registro; o B.O. se atém ao relato espontâneo.</li>
+              <li>Demais elementos são colhidos por policiais capacitados no Curso de Depoimento Especial.</li>
+              <li>Vedado: ouvir a vítima sobre detalhes da violência por policial não capacitado.</li>
+            </ul>
+            <p class="legal">IN PCPA 4/2018, arts. 3º e 4º.</p>
+          </div>
+        </section>
+
+        <div class="arrow" aria-hidden="true"></div>
+
+        <!-- PASSO 2 · DECISÃO -->
+        <section class="step step--amber">
+          <div class="step__rail"><span class="step__num">2</span></div>
+          <div class="step__card">
+            <div class="step__kicker">Passo 2 · Decisão</div>
+            <h2 class="h2-tight">Triagem de risco físico imediato</h2>
+            <p>Avaliação obrigatória entre emergência e urgência antes de qualquer outro encaminhamento.</p>
+          </div>
+        </section>
+
+        <div class="arrow" aria-hidden="true"></div>
+
+        <div class="branches branches--2">
+          <section class="branch branch--red">
+            <div class="branch__head">Emergência</div>
+            <div class="branch__body">
+              <div class="branch__title">Violência sexual ≤ 72h ou lesão grave</div>
+              <ul class="bullets bullets--sm">
+                <li>Acionar <strong>ambulância</strong> → UMS/Santa Casa (Belém), antes de qualquer providência policial.</li>
+                <li>Não orientar banho, troca de roupa ou micção antes da perícia.</li>
+                <li>Roupas em saco de papel (não plástico), com cadeia de custódia.</li>
+                <li>Comunicar o Conselho Tutelar de imediato.</li>
+              </ul>
+            </div>
+          </section>
+
+          <section class="branch branch--amber">
+            <div class="branch__head">Urgência</div>
+            <div class="branch__body">
+              <div class="branch__title">Violência sexual &gt; 72h ou lesão visível</div>
+              <ul class="bullets bullets--sm">
+                <li>Encaminhar imediatamente ao serviço de saúde.</li>
+                <li>Lavrar o boletim de ocorrência.</li>
+                <li>Comunicar o Conselho Tutelar de imediato; formalizar em até 24h.</li>
+              </ul>
+            </div>
+          </section>
+        </div>
+
+        <div class="arrow" aria-hidden="true"><span class="arrow__label">convergência</span></div>
+
+        <!-- PASSO 3 · DECISÃO OBRIGATÓRIA -->
+        <section class="step step--wine">
+          <div class="step__rail"><span class="step__num">3</span></div>
+          <div class="step__card">
+            <div class="step__kicker">Passo 3 · Decisão obrigatória</div>
+            <h2>Violência sexual (inclusive digital) ou vítima com menos de 7 anos?</h2>
+            <div class="choice">
+              <div class="choice__opt choice__opt--yes">
+                <b>Sim → rito cautelar</b>
+                Comunicar <strong>imediatamente</strong> o MP e representar pela produção antecipada de prova (depoimento especial cautelar em juízo). A vítima não é ouvida formalmente na Delegacia.
+                <small>Seguir direto para o Passo 6.</small>
+              </div>
+              <div class="choice__opt choice__opt--no">
+                <b>Não → Passo 4</b>
+                Avaliar a forma de oitiva cabível na Delegacia.
+              </div>
+            </div>
+            <p class="legal">Lei 13.431/2017, art. 11, §§ 1º e 2º, e art. 21, VI — nova oitiva só se imprescindível, justificada e com concordância da vítima ou de seu representante legal não agressor.</p>
+          </div>
+        </section>
+
+        <div class="arrow" aria-hidden="true"><span class="arrow__label">se “não”</span></div>
+
+        <!-- PASSO 4 · DECISÃO -->
+        <section class="step step--amber">
+          <div class="step__rail"><span class="step__num">4</span></div>
+          <div class="step__card">
+            <div class="step__kicker">Passo 4 · Decisão</div>
+            <h2>Crime com violência ou grave ameaça?</h2>
+            <div class="choice">
+              <div class="choice__opt choice__opt--yes">
+                <b>Sim</b>
+                Depoimento especial (regra), desde que indispensável e presentes os requisitos do Passo 5.
+              </div>
+              <div class="choice__opt choice__opt--no">
+                <b>Não</b>
+                Dispensa motivada do depoimento pelo Delegado; encaminhar à escuta especializada na rede, se necessária.
+              </div>
+            </div>
+            <p class="legal">IN PCPA 4/2018, art. 2º, §§ 1º e 2º · Decreto 9.603/2018, art. 22.</p>
+          </div>
+        </section>
+
+        <div class="arrow" aria-hidden="true"></div>
+
+        <!-- PASSO 5 -->
+        <section class="step">
+          <div class="step__rail"><span class="step__num">5</span></div>
+          <div class="step__card">
+            <div class="step__kicker">Passo 5</div>
+            <h2>Verificação dos requisitos cumulativos para depoimento na Delegacia</h2>
+            <div class="reqs">
+              <div class="reqs__title">Todos obrigatórios</div>
+              <ol>
+                <li>Policial capacitado no Curso de Depoimento Especial.</li>
+                <li>Sala adequada, com infraestrutura acolhedora.</li>
+                <li>Equipamento de gravação em funcionamento.</li>
+                <li>Protocolo PCDF/UnB (ou equivalente validado) aplicado.</li>
+              </ol>
+            </div>
+            <div class="inline-alert">
+              <strong>Se ausente qualquer requisito →</strong> encaminhar ao Centro de Depoimento Especial (DATA/DAV/PC-PA) ou representar ao MP pela produção antecipada de prova.
+            </div>
+            <p class="legal">IN PCPA 4/2018, art. 6º, §1º · Lei 13.431/2017, arts. 10 e 12.</p>
+          </div>
+        </section>
+
+        <div class="arrow" aria-hidden="true"><span class="arrow__label">convergência</span></div>
+
+        <!-- PASSO 6 -->
+        <section class="step step--green">
+          <div class="step__rail"><span class="step__num">6</span></div>
+          <div class="step__card">
+            <div class="step__kicker">Passo 6</div>
+            <h2>Encaminhamentos finais</h2>
+            <ul class="bullets">
+              <li>Conselho Tutelar comunicado imediatamente — prazo operacional de até 24h.</li>
+              <li>Relatório e mídia anexados ao procedimento apuratório; cópia mantida por 30 dias.</li>
+              <li>Vedado o repasse a terceiros, salvo para fins de saúde e de persecução penal.</li>
+              <li>A autoridade policial busca outros elementos de corroboração além do depoimento.</li>
+            </ul>
+            <p class="legal">IN PCPA 4/2018, arts. 3º e 7º a 9º.</p>
+          </div>
+        </section>
+
+        <!-- VIOLÊNCIA SEXUAL DIGITAL -->
+        <aside class="alert alert--navy spaced">
+          <div class="alert__title">Violência sexual digital — procedimento específico</div>
+          <p>A exposição do corpo da criança ou do adolescente em foto ou vídeo, por meio eletrônico ou não, integra o conceito legal de violência sexual (Lei 13.431/2017, art. 4º, III) — segue, portanto, o rito cautelar do Passo 3.</p>
+          <ul class="bullets">
+            <li>Preservar evidências digitais: prints, URLs, perfis, imagens e vídeos; identificar metadados; manter o aparelho ligado, sem formatar, em embalagem antiestática.</li>
+            <li>Vedado o compartilhamento das imagens por qualquer pessoa, inclusive profissionais de atendimento (ECA, arts. 241-A e 241-B).</li>
+            <li>Comunicar imediatamente à Delegacia, que adota as medidas investigativas, incluindo o pedido de preservação de dados ao provedor.</li>
+            <li>Tratar toda evidência digital conforme a cadeia de custódia (CPP, arts. 158-A a 158-F).</li>
+            <li>Orientar os responsáveis a não apagar conversas, bloquear ou denunciar perfis sem orientação técnica prévia.</li>
+          </ul>
+        </aside>
+
+      </div>
+
+      <footer class="sheet-footer">
+        <span>Ministério Público do Estado do Pará · Promotoria de Justiça da Comarca de Acará/PA</span>
+        <span>Versão 2026.1</span>
+      </footer>
+    </article>
+  </main>
+</body>
+</html>
