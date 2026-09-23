@@ -1,48 +1,63 @@
-# Revisão jurídica dos fluxogramas
+# Revisão normativa dos fluxogramas — versão 2026.1
 
-Referências usadas: Lei 13.431/2017, Decreto 9.603/2018, ECA (Lei 8.069/1990) e o *Roteiro de sugestão para acompanhamento e fiscalização da implementação da Lei 13.431/2017* (CAOIJ/MPPA, Maio Laranja, 2021).
+Minuta do **fluxo municipal de atendimento** a crianças e adolescentes vítimas ou testemunhas de violência do Município de Acará/PA, a ser submetida ao CMDCA para aprovação por resolução. O próprio Decreto 9.603/2018 (art. 9º) prevê que o comitê de gestão colegiada da rede funcione **preferencialmente no âmbito do Conselho de Direitos da Criança e do Adolescente** e que defina o fluxo de atendimento.
 
-## Correções aplicadas
+## Critério adotado
 
-| # | Onde | Problema | Correção |
-|---|------|----------|----------|
-| 1 | F3 · Violência sexual digital | Citava "art. 4º, III, **d**". Esse inciso só tem as alíneas *a* a *c*; a exposição do corpo em foto ou vídeo está no **caput** do inciso III. | "Lei 13.431/2017, art. 4º, III". |
-| 2 | F3 · ordem do fluxo | A obrigação do Delegado (violência sexual ou vítima com menos de 7 anos → rito cautelar, art. 11, §1º) aparecia **depois** da escolha da oitiva e da verificação de requisitos. Na prática, o fluxo permitia um depoimento na Delegacia justamente nos casos em que a lei impõe a produção antecipada em juízo. | A decisão obrigatória virou o **Passo 3**, antes da escolha da oitiva. "Sim" vai direto aos encaminhamentos finais; "Não" segue para a avaliação da necessidade da oitiva (Passo 4) e as condições legais (Passo 5). O fluxo passou de 5 para 6 passos. |
-| 3 | F2 · Passo 3 (Exceção: Delegacia) | Não deixava claro que a exceção não vale para as hipóteses do rito cautelar. | "Somente fora das hipóteses de rito cautelar obrigatório e desde que atendidas as condições legais". |
-| 4 | F3 · violência sexual digital | Vedação de compartilhamento fundamentada no art. 218-C do CP (tipo genérico). Para crianças e adolescentes, os tipos específicos estão no ECA (redação da Lei 11.829/2008). | "ECA, arts. 241-A e 241-B". Violência digital também passa a remeter ao rito cautelar. |
-| 5 | F1 · ramo Emergência | "Delegado representa pela produção antecipada" aparecia para toda emergência (incluindo lesão grave em vítima com 7 anos ou mais). | Condicionado a "violência sexual ou vítima com menos de 7 anos". |
-| 6 | F1 · Etapa 5 | "MP pode requerer DE **de ofício**". "De ofício" é atuação do juiz. O MP *propõe* a medida. | "O MP pode propor a produção antecipada de prova independentemente da representação". |
-| 7 | F1 · ramos Urgência/Suspeita e tabela | Misturava a comunicação ao CT (que deve ser **imediata**: art. 13 da Lei 13.431 e art. 13 do ECA) com a notificação compulsória da saúde (SINAN), e atribuía ao Decreto 9.603 um prazo de 24h que ele não fixa. | Comunicação **imediata** ao CT, sem prazo de 24h. A notificação ao SINAN aparece separada (violência sexual: notificação imediata, em até 24h). |
-| 8 | F1 · ramo Urgência | "Acionar o CT **para B.O.**" O Conselho Tutelar não registra ocorrência. | Comunicar o CT e registrar o B.O. em itens separados. |
-| 9 | F1 · Etapa 3 (CT) | "Aplica medidas protetivas (art. 101)" sem ressalva. O CT aplica apenas os incisos I a VII, e o acolhimento é excepcional. | Base legal "ECA, arts. 93, 101 (I a VII) e 136". Acrescentada a comunicação do acolhimento emergencial ao Juízo em até 24h, também na tabela de prazos. |
-| 10 | F1 · Etapa 7 × tabela | Direção do fluxo de dados contraditória ("dados encaminhados ao Judiciário" × "Judiciário fornece dados à Comissão"). | Os órgãos e o Judiciário compartilham dados anonimizados com a Comissão Intersetorial. |
-| 11 | F2 · Passo 1 | "Escuta especializada: **sem valor probatório**". O Decreto 9.603 (art. 19) diz que ela "não tem o escopo de produzir prova", o que é diferente de "não ter valor". | "Finalidade protetiva — não se destina à produção de prova". |
-| 12 | F2 · Passo 4 | Vedação de repasse sem a ressalva que já constava no F3. | "Salvo para fins de saúde e de persecução penal" (Lei 13.431/2017, art. 5º, XIV), igual ao F3. |
-| 13 | F1 · Etapa 1, F1 · Etapa 6 e F2 · Direitos | Faltavam pontos centrais da lei. | Nenhum contato, **ainda que visual**, com o suposto autor (art. 9º). Informar os direitos à criança e ao responsável (Decreto 9.603, art. 11). Depoimento "sempre que possível uma única vez" (art. 11). |
+Só permanece nos fluxogramas o conteúdo cujo fundamento foi **localizado e conferido** em texto normativo existente. O que não pôde ser confirmado foi retirado ou reescrito com base verificada.
 
-## Conteúdo baseado na IN PCPA nº 4/2018 — removido
+## Normas conferidas e onde são usadas
 
-O texto da Instrução Normativa nº 4/2018 da Polícia Civil do Pará não pôde ser localizado em fonte pública. Por isso **tudo o que se apoiava exclusivamente nela foi retirado**. Onde a mesma providência tem base na Lei 13.431/2017, no Decreto 9.603/2018 ou no ECA, o quadro foi reescrito com essa base.
+| Norma | Dispositivos conferidos | Uso nos fluxogramas |
+|-------|------------------------|---------------------|
+| Lei 13.431/2017 | art. 4º, III (caput); art. 5º (V, VI, VII, XI, XIV e demais incisos); arts. 7º a 13; art. 14, §1º; art. 21, VI | Conceitos, direitos, escuta, depoimento, rito cautelar, dever de comunicar, representação do Delegado |
+| Decreto 9.603/2018 | art. 9º (comitê de gestão colegiada e fluxo); art. 10 (saúde); art. 11 (educação); art. 12 (CREAS/PAEFI); art. 19 (escuta); art. 22, §2º (depoimento só se indispensável) | Todas as etapas da rede |
+| ECA (Lei 8.069/1990) | arts. 13, 93, 100 (p.ú., VII), 101, 136 (e p.ú.), 241-A, 241-B | Comunicação ao CT, acolhimento emergencial, atribuições do CT, violência digital |
+| Lei 14.344/2022 (Henry Borel) | art. 23 (dever de comunicar, inclusive ao Disque 100); medidas protetivas de urgência | Comunicação imediata; Etapas 5 e 6 |
+| Lei 12.845/2013 | atendimento emergencial, integral e multidisciplinar nos hospitais do SUS | Ramo Emergência |
+| Decreto 7.958/2013 | coleta de vestígios pela rede do SUS com cadeia de custódia | Ramo Emergência |
+| CPP, arts. 158-A a 158-F | cadeia de custódia | Vestígios e evidências digitais |
+| Decreto 9.579/2018 | PPCAAM — portas de entrada: Conselho Tutelar, MP, Judiciário e Defensoria Pública | Etapa 3 e alerta de flagrante |
+| Resolução Conanda 231/2022 | registro obrigatório no SIPIA-CT | Etapa 3 e monitoramento |
+| Res. CNJ 299/2019 | depoimento especial no Judiciário | Etapa 6 |
+| Ministério da Saúde | notificação compulsória **imediata (até 24h)** de violência sexual à Secretaria Municipal de Saúde; PEP iniciada em até 72h (PCDT PEP) | Ramos e tabela de prazos |
 
-| Onde | Conteúdo retirado | Como ficou |
-|------|-------------------|------------|
-| F1 · Etapa 5 | "IN PCPA 4/2018" na base legal; "Delegacia notifica o CT em até 24h" | Delegacia comunica **de imediato** o CT e o MP (Lei 13.431, art. 13; ECA, art. 13). |
-| F1 · ramos e tabela de prazos | Prazo de 24h para comunicar/formalizar ao CT; linhas "Formalização em até 24h" e "Delegacia notifica o CT em até 24h" | Comunicação imediata; as linhas foram excluídas da tabela. |
-| F2 · Passo 3 e F3 · Passo 5 | 4 "requisitos cumulativos" (art. 6º, §1º): Curso de DE da PC-PA, protocolo PCDF/UnB etc.; encaminhamento ao Centro de DE (DATA/DAV/PC-PA) | "Condições legais do depoimento especial": profissional especializado com protocolo, local apropriado e acolhedor, gravação em áudio e vídeo, nenhum contato com o suposto autor (Lei 13.431, arts. 9º a 12). Sem essas condições → representar ao MP pela produção antecipada de prova (art. 21, VI). |
-| F2 · Passo 4 e F3 · Passo 6 | Cópia mantida por 30 dias (art. 7º); prazo operacional de 24h; arts. 7º a 9º da IN | CT e MP comunicados imediatamente; mídia sob sigilo; vedação de repasse (Lei 13.431, art. 5º, XIV); outros meios de prova (Decreto 9.603, art. 22). |
-| F3 · Passo 1 | Regras de registro dos arts. 3º e 4º: criança desacompanhada, coleta por policial com Curso de DE, vedação dirigida a policial "não capacitado" | "Registro da ocorrência sem revitimização" com base na Lei 13.431, arts. 5º e 9º, e no ECA, art. 100, parágrafo único, VII (intervenção mínima). |
-| F3 · Passo 4 | Critério "Crime com violência ou grave ameaça?" (art. 2º) e dispensa motivada pelo Delegado | Critério legal: "O depoimento da vítima é indispensável à apuração?" (Lei 13.431, art. 8º; Decreto 9.603, art. 22). |
+Serviços locais citados, cuja existência foi confirmada: **Hospital Municipal de Acará**, **Vara Única de Acará**, **Centro Integrado ParáPaz Santa Casa** (Belém) e **Disque-Denúncia 181** (Segup/PA).
 
-Se a Promotoria obtiver o texto oficial da IN, esses pontos podem voltar como complemento operacional, dentro dos quadros.
+## Principais correções em relação à versão original
 
-## Citações removidas das regiões periféricas
+1. **Ordem do Fluxograma 3.** A decisão "violência sexual ou vítima com menos de 7 anos" vem **antes** de qualquer oitiva na Delegacia, porque nesses casos o rito cautelar em juízo é obrigatório (Lei 13.431, art. 11, §1º).
+2. **Violência digital.** O conceito está no **caput** do art. 4º, III, e não em uma alínea "d", que não existe. A vedação de circular imagens passou a citar os tipos específicos do ECA (arts. 241-A e 241-B).
+3. **Comunicação ao Conselho Tutelar é imediata** (Lei 13.431, art. 13; Lei 14.344, art. 23; ECA, art. 13). Foi retirado o "prazo de 24h", que não tem base legal. O único prazo de 24h que ficou para a saúde é a notificação compulsória ao SINAN.
+4. **Conselho Tutelar.** Se entender necessário afastar a criança da família, o CT comunica o MP de imediato (ECA, art. 136, parágrafo único). O acolhimento emergencial deve ser comunicado ao Juízo em até 24h (ECA, art. 93).
+5. **Escuta especializada** "não tem o escopo de produzir prova" (Decreto 9.603, art. 19). A expressão "sem valor probatório" foi substituída.
+6. **Depoimento especial** só ocorre se **indispensável**, consideradas as demais provas (Decreto 9.603, art. 22, §2º). Esse passou a ser o critério de decisão na Delegacia.
+7. **MP** "propõe" a produção antecipada de prova; a expressão "de ofício" foi retirada.
+8. **PPCAAM:** foi incluída a Defensoria Pública entre as portas de entrada (Decreto 9.579/2018).
 
-- Etiquetas de leis nos cabeçalhos dos três fluxogramas.
-- Rodapé da capa: Lei 13.431, Decreto 9.603, IN PCPA 4/2018, Res. CNJ 299/2019, Res. CNMP 243/2021, 287/2024, 298/2024, 332/2026 e Portaria MPPA 3.485/2025.
-- Citações soltas nos títulos das etapas foram para a linha "Base legal", dentro do próprio quadro.
+## Conteúdo retirado por falta de fonte verificável
 
-## Pontos para conferência humana (não verificáveis nesta revisão)
+| Conteúdo | Motivo |
+|----------|--------|
+| Tudo o que se baseava na IN PCPA nº 4/2018: 4 requisitos cumulativos, curso da PC-PA, protocolo PCDF/UnB, Centro DATA/DAV, guarda por 30 dias, critério "violência ou grave ameaça" | Texto da instrução não localizado em fonte pública |
+| "CRAS referencia ao CREAS em até 72h" | Prazo sem previsão normativa localizada |
+| "Acompanhamento de 6 meses no PARAPAZ com transporte do município" | Sem fonte normativa; pode voltar como pactuação local, se aprovada pelo CMDCA |
+| "PPVIDA" | Programa não identificado |
+| "Avaliação anual do Plano Municipal" | A norma prevê monitoramento e avaliação **periódica** (Lei 13.431, art. 14, §1º), sem fixar periodicidade |
+| "Matriz de referência e contrarreferência (art. 14)" | Expressão não consta do dispositivo citado |
+| Resoluções CNJ 639/2025 e 682/2026; Resoluções CNMP 287/2024, 298/2024 e 332/2026; Portaria MPPA 3.485/2025 | Não usadas no conteúdo do fluxo; excluídas |
+| Detalhes técnicos não normatizados (embalagem antiestática, manter aparelho ligado, não bloquear perfis) | Orientações técnicas sem fonte normativa conferida |
+| Identificação institucional do Ministério Público | O fluxo passa a ser do **Município de Acará**, para aprovação pelo CMDCA |
 
-1. **Res. CNJ 299/2019 "alt. 639/2025 e 682/2026"** e as **Resoluções CNMP 287/2024, 298/2024 e 332/2026**: números não confirmados. No F1 ficou apenas "Res. CNJ 299/2019 e alterações".
-2. **PPVIDA**: conferir a sigla. O programa federal/estadual de proteção a testemunhas é conhecido como PROVITA.
-3. **Prazos locais** (CRAS → CREAS em 72h; acompanhamento de 6 meses no PARAPAZ): não constam da legislação federal. Foram mantidos como prazos operacionais do protocolo local.
+## Pactuações locais a confirmar na reunião do CMDCA
+
+Estes pontos são operacionais e cabe à rede municipal defini-los (Decreto 9.603, art. 9º, II):
+
+- Serviço de referência para o atendimento emergencial: hoje consta o **Hospital Municipal de Acará**.
+- Referência para violência sexual: hoje consta o **Centro Integrado ParáPaz Santa Casa** (Belém), incluindo como será garantido o transporte.
+- Serviço responsável pela escuta especializada: hoje consta o **CREAS/PAEFI**.
+- Composição do **comitê de gestão colegiada** e a periodicidade do monitoramento.
+
+## Fontes de conferência
+
+A rede deste ambiente bloqueia o acesso direto ao Planalto, à Câmara e ao CNJ. Os textos foram conferidos por buscas com o texto literal dos dispositivos, em bases como Planalto, Câmara, normas.leg.br, Modelo Inicial, Jusbrasil, JurisHand, Ministério da Saúde e Agência Pará, e pelo *Roteiro para acompanhamento da implementação da Lei 13.431/2017* (CAOIJ/MPPA, 2021), que transcreve integralmente o art. 13 da Lei 13.431, os arts. 10 e 11 do Decreto 9.603 e os arts. 13, 56 e 245 do ECA. Recomenda-se uma última leitura do texto final da resolução contra o Planalto antes da publicação.

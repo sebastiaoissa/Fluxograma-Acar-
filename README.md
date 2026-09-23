@@ -1,6 +1,6 @@
-# Protocolo de Atuação Integrada — Comarca de Acará/PA
+# Fluxo Municipal de Atendimento — Acará/PA
 
-Fluxogramas de atendimento a crianças e adolescentes vítimas ou testemunhas de violência, em formato de site estático (HTML + CSS, sem dependências externas).
+Fluxogramas da rede de proteção do Município de Acará/PA para o atendimento a crianças e adolescentes vítimas ou testemunhas de violência, em formato de site estático (HTML + CSS, sem dependências externas).
 
 ## Estrutura
 
@@ -12,7 +12,7 @@ fluxograma-3.html       Fluxo da Delegacia de Polícia
 assets/css/fluxograma.css   Folha de estilo única (cores, componentes, responsivo, impressão)
 assets/js/embed.js          Modo incorporado (iframe) e ajuste automático de altura
 assets/fonts/               IBM Plex Sans (auto-hospedada)
-REVISAO-LEGAL.md        Análise jurídica e correções aplicadas
+REVISAO-LEGAL.md        Normas conferidas, correções e pactuações locais a confirmar
 ```
 
 As citações normativas aparecem **somente dentro dos quadros** (linha "Base legal" ao pé de cada quadro). Cabeçalhos, capa e rodapés não trazem citações.
@@ -23,7 +23,7 @@ As citações normativas aparecem **somente dentro dos quadros** (linha "Base le
 
 Para ativar (uma única vez): *Settings → Pages → Build and deployment → Source: "Deploy from a branch" → Branch: `claude/magical-ride-k86aox`, pasta `/ (root)` → Save*. A cada novo push o site é republicado automaticamente em 1–2 minutos.
 
-O site também funciona em qualquer outra hospedagem estática (Netlify, servidor do órgão etc.): basta copiar a pasta inteira. Os links são relativos.
+O site também funciona em qualquer outra hospedagem estática (Netlify, servidor da prefeitura etc.): basta copiar a pasta inteira. Os links são relativos.
 
 ## Inserir os fluxogramas em outro site
 
