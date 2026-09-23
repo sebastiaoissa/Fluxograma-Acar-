@@ -5,10 +5,11 @@ Fluxogramas da rede de proteção do Município de Acará/PA para o atendimento 
 ## Estrutura
 
 ```
-index.html              Capa com os três fluxogramas
+index.html              Capa: apresentação do fluxo e acesso às páginas
 fluxograma-1.html       Fluxo Geral de Atendimento
 fluxograma-2.html       Escuta Especializada × Depoimento Especial
 fluxograma-3.html       Fluxo da Delegacia de Polícia
+pontos-para-definicao.html  Pauta de decisões locais para a reunião da rede (imprimível)
 assets/css/fluxograma.css   Folha de estilo única (cores, componentes, responsivo, impressão)
 assets/js/embed.js          Modo incorporado (iframe) e ajuste automático de altura
 assets/fonts/               IBM Plex Sans (auto-hospedada)

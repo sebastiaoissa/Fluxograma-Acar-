@@ -528,3 +528,99 @@ ul { margin: 0; padding: 0; list-style: none; }
 .step--green { --bullet: var(--green); }
 .step__card h2.h2-tight { margin-bottom: 6px; }
 .card__kicker, .card__title, .card__desc { display: block; }
+
+/* --------------------------------------------------------------------------
+   Capa — apresentação
+   -------------------------------------------------------------------------- */
+.intro { width: 100%; max-width: 700px; margin-bottom: 40px; display: flex; flex-direction: column; gap: 14px; }
+.intro__block {
+  background: var(--paper); border-radius: var(--radius); padding: 26px 30px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, .06);
+}
+.intro__block h2 {
+  margin-bottom: 10px; font-size: 13px; font-weight: 700; letter-spacing: 1.8px; text-transform: uppercase; color: var(--wine);
+}
+.intro__block p { font-size: 15px; line-height: 1.7; }
+.intro__block p + p { margin-top: 10px; }
+.intro__block .bullets { margin-top: 12px; }
+.intro__block .bullets li { font-size: 14.5px; }
+.intro__grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-top: 14px; }
+.intro__stat {
+  padding: 14px; border-radius: 8px; background: var(--navy-soft); border: 1.5px solid var(--navy-line);
+  font-size: 13px; line-height: 1.5; color: var(--text);
+}
+.intro__stat strong { display: block; margin-bottom: 4px; font-size: 14px; color: var(--navy); }
+.intro__note {
+  padding: 14px 18px; border-radius: 8px; background: var(--amber-soft); border: 1.5px solid var(--amber-line);
+  font-size: 13.5px; line-height: 1.6; color: var(--amber-text);
+}
+.home__section-title {
+  width: 100%; max-width: 700px; margin: 0 0 14px;
+  font-size: 11px; font-weight: 700; letter-spacing: 2.5px; text-transform: uppercase; color: var(--navy);
+}
+.cards + .home__section-title { margin-top: 32px; }
+.card--amber { --c: var(--amber); --c-soft: var(--amber-soft); --c-line: var(--amber-line); }
+
+/* --------------------------------------------------------------------------
+   Pontos para definição
+   -------------------------------------------------------------------------- */
+.topic {
+  --c: var(--navy); --c-line: var(--navy-line);
+  border: 1.5px solid var(--navy-line); border-radius: var(--radius); overflow: hidden;
+}
+.topic + .topic { margin-top: 18px; }
+.topic__head {
+  display: flex; align-items: center; gap: 14px;
+  padding: 14px 20px; background: var(--navy-soft); border-bottom: 1.5px solid var(--navy-line);
+}
+.topic__num {
+  flex-shrink: 0; width: 34px; height: 34px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  background: var(--navy); color: #fff; font-weight: 700; font-size: 15px;
+}
+.topic__head h2 { font-size: 17px; font-weight: 600; }
+.topic__area {
+  margin-left: auto; flex-shrink: 0;
+  font-size: 10px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase; color: var(--muted);
+}
+.topic__body { padding: 18px 20px; display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+.topic__col h3 {
+  margin-bottom: 8px; font-size: 10.5px; font-weight: 700; letter-spacing: 1.5px; text-transform: uppercase;
+}
+.topic__col--law h3 { color: var(--green); }
+.topic__col--ask h3 { color: var(--amber); }
+.topic__col p { font-size: 13.5px; line-height: 1.6; }
+.topic__col--law { --bullet: var(--green); }
+.topic__col--ask { --bullet: var(--amber); }
+.topic__col .bullets li { font-size: 13.5px; }
+.topic__proposal {
+  grid-column: 1 / -1;
+  padding: 10px 14px; border-radius: 8px; background: #F9FAFB; border: 1px dashed var(--navy-line);
+  font-size: 13px; line-height: 1.6;
+}
+.topic__proposal b { color: var(--navy); }
+.topic__decision {
+  grid-column: 1 / -1;
+  border-top: 1px solid var(--rule); padding-top: 12px;
+  font-size: 12px; color: var(--muted);
+}
+.topic__decision span {
+  display: block; margin-top: 6px; height: 44px;
+  border: 1px solid var(--rule); border-radius: 6px; background: #fff;
+}
+.topic .legal { grid-column: 1 / -1; margin-top: 0; }
+
+.page-intro { font-size: 15px; line-height: 1.7; }
+.page-intro + .page-intro { margin-top: 10px; }
+
+@media (max-width: 640px) {
+  .intro__block { padding: 20px 18px; }
+  .intro__grid { grid-template-columns: 1fr; }
+  .topic__body { grid-template-columns: 1fr; }
+  .topic__head { flex-wrap: wrap; }
+  .topic__area { margin-left: 48px; }
+}
+@media print {
+  .topic { break-inside: avoid; }
+}
+.sheet-body > .section-label { margin-top: 32px; }
