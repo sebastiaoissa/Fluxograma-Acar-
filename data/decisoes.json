@@ -1,0 +1,77 @@
+{
+  "_instrucoes": "Para liberar um tema para nova edição, altere \"bloqueado\" para false nesse tema e salve (commit). Não edite os demais campos à mão, salvo para corrigir o texto da decisão.",
+  "temas": {
+    "1": {
+      "tema": "Serviço de referência para emergências",
+      "decisao": "",
+      "bloqueado": false,
+      "salvo_em": null
+    },
+    "2": {
+      "tema": "Referência para violência sexual, perícia e transporte",
+      "decisao": "",
+      "bloqueado": false,
+      "salvo_em": null
+    },
+    "3": {
+      "tema": "Quem realiza a escuta especializada",
+      "decisao": "",
+      "bloqueado": false,
+      "salvo_em": null
+    },
+    "4": {
+      "tema": "Prazos de encaminhamento entre os serviços",
+      "decisao": "",
+      "bloqueado": false,
+      "salvo_em": null
+    },
+    "5": {
+      "tema": "Instrumento único de comunicação e sigilo",
+      "decisao": "",
+      "bloqueado": false,
+      "salvo_em": null
+    },
+    "6": {
+      "tema": "Plantão e contatos do Conselho Tutelar",
+      "decisao": "",
+      "bloqueado": false,
+      "salvo_em": null
+    },
+    "7": {
+      "tema": "Acolhimento emergencial",
+      "decisao": "",
+      "bloqueado": false,
+      "salvo_em": null
+    },
+    "8": {
+      "tema": "Ameaça de morte",
+      "decisao": "",
+      "bloqueado": false,
+      "salvo_em": null
+    },
+    "9": {
+      "tema": "Depoimento especial em Acará",
+      "decisao": "",
+      "bloqueado": false,
+      "salvo_em": null
+    },
+    "10": {
+      "tema": "Violência sexual digital",
+      "decisao": "",
+      "bloqueado": false,
+      "salvo_em": null
+    },
+    "11": {
+      "tema": "Atuação das escolas",
+      "decisao": "",
+      "bloqueado": false,
+      "salvo_em": null
+    },
+    "12": {
+      "tema": "Comitê de gestão colegiada e monitoramento",
+      "decisao": "",
+      "bloqueado": false,
+      "salvo_em": null
+    }
+  }
+}

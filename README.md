@@ -53,3 +53,27 @@ Dentro de um `<iframe>` a página oculta automaticamente a barra de navegação 
 
 ### Opção 3 — incorporar o HTML diretamente
 Copie o conteúdo de `<article class="sheet">…</article>` para a página desejada e inclua `assets/css/fluxograma.css`. Todas as classes são prefixadas por componente (`step`, `branch`, `reqs`, `rights`, `deadlines`…), o que reduz conflitos com o CSS do site hospedeiro.
+
+## Registro das decisões da rede (página "Pontos para definição")
+
+As decisões tomadas na reunião ficam salvas em **`data/decisoes.json`**, dentro deste repositório. Visitantes do site apenas leem. Só grava quem tem uma chave de acesso com permissão de escrita no repositório.
+
+### 1. Criar a chave de acesso (uma única vez)
+1. No GitHub: foto do perfil → **Settings → Developer settings → Personal access tokens → Fine-grained tokens → Generate new token**.
+2. **Repository access:** *Only select repositories* → `Fluxograma-Acar-`.
+3. **Permissions → Repository permissions → Contents:** *Read and write*.
+4. Escolha uma validade (por exemplo, até o fim das reuniões) e gere a chave. Guarde-a: ela começa com `github_pat_`.
+
+### 2. Registrar decisões na reunião
+1. Abra `https://sebastiaoissa.github.io/Fluxograma-Acar-/pontos-para-definicao.html?editar=1`.
+2. Cole a chave em **Modo coordenador → Entrar**. Marque "lembrar neste dispositivo" só em computador pessoal.
+3. Escreva a decisão em cada tema. O texto fica guardado no navegador até ser salvo.
+4. Clique em **Salvar e bloquear**. A decisão é gravada no repositório (commit automático) e o tema fica **bloqueado**: ninguém consegue alterá-lo pelo site, nem mesmo o coordenador.
+
+### 3. Liberar um tema para nova edição
+Somente editando o arquivo no GitHub:
+1. Abra `data/decisoes.json` no repositório → ícone de lápis (*Edit*).
+2. No tema desejado, troque `"bloqueado": true` por `"bloqueado": false` e confirme o commit.
+3. Na próxima vez que a página for aberta em modo coordenador, o tema volta a ser editável.
+
+O histórico de commits do arquivo registra cada decisão salva e cada liberação, com data e autor.
